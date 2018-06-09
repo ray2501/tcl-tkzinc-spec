@@ -1,0 +1,10 @@
+--- generic/PostScript.c.orig	2018-06-09 10:51:28.001712673 +0800
++++ generic/PostScript.c	2018-06-09 10:51:42.765732543 +0800
+@@ -737,6 +737,7 @@
+ static int
+ EmitPSBitmap()
+ {
++  return 0;
+ }
+ 
+ int
