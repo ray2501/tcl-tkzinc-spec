@@ -11,6 +11,7 @@ BuildRequires:  gcc
 BuildRequires:  make
 BuildRequires:  tcl-devel >= 8.4
 BuildRequires:  tk-devel >= 8.4
+BuildRequires:  libXext-devel
 BuildRequires:  glu-devel
 BuildRequires:  glew-devel
 Version:        3.3.6
