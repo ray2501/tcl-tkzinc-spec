@@ -20,7 +20,7 @@ Summary:        A canvas like widget extension to Tcl/Tk
 License:        LGPL v2.1
 Group:          Development/Languages/Tcl
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
-URL:            https://bitbucket.org/plecoanet/tkzinc
+URL:            https://github.com/asb-capfan/TkZinc
 Source0:        %packagename-%version.tar.gz
 Patch0:         PostScript.c.patch
 
@@ -35,6 +35,7 @@ features such as gradients and alpha blending.
 %patch0
 
 %build
+chmod +x configure
 ./configure \
 	--prefix=%{directory} \
 	--exec-prefix=%{directory} \

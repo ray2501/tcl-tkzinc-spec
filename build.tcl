@@ -2,7 +2,7 @@
 
 set arch "x86_64"
 set base "tkzinc-3.3.6"
-set fileurl "https://bitbucket.org/plecoanet/tkzinc/get/4c4937fcff4b.zip"
+set fileurl "https://github.com/asb-capfan/TkZinc/archive/version/3.3.6.zip"
 
 set var [list wget $fileurl -O tkzinc.zip]
 exec >@stdout 2>@stderr {*}$var
@@ -12,7 +12,7 @@ exec >@stdout 2>@stderr {*}$var
 
 set curDir [pwd]
 
-file rename plecoanet-tkzinc-4c4937fcff4b $base
+file rename {TkZinc-version-3.3.6} $base
 
 set var [list tar czvf $base.tar.gz $base]
 exec >@stdout 2>@stderr {*}$var

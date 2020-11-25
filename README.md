@@ -2,6 +2,6 @@
 
 openSUSE tcl-tkzinc spec
 
-[Tkzinc](https://bitbucket.org/plecoanet/tkzinc) is 
+[Tkzinc](https://github.com/asb-capfan/TkZinc) is 
 A canvas like widget extension to Tcl/Tk.
 
