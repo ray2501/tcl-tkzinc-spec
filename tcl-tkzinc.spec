@@ -17,7 +17,7 @@ BuildRequires:  glew-devel
 Version:        3.3.6
 Release:        0
 Summary:        A canvas like widget extension to Tcl/Tk
-License:        LGPL v2.1
+License:        LGPL-2.1-only
 Group:          Development/Languages/Tcl
 BuildRoot:      %{_tmppath}/%{name}-%{version}-build
 URL:            https://github.com/asb-capfan/TkZinc
